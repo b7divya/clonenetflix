@@ -1,0 +1,83 @@
+.main-Footer {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-weight: 500;
+    background-color: black;
+    height: 50vh
+
+}
+
+.main-footer-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.main-footer-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.main-footer-three {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.main-footer-four {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: black;
+    color: whitesmoke;
+}   
+
+.main-footer-five {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.main-footer-six {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.main-footer-seven {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: black;
+    color: whitesmoke;
+}
+
+

@@ -1,0 +1,33 @@
+.main-Create {
+    margin-top: 10px;
+}
+
+.main-create-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: black;
+}
+
+.main-create-container-left {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-create-container-right {
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,81 @@
+.main {
+    background-color: gray;
+}
+
+.main-container {
+    height: 110vh;
+    background-image: "https://i0.wp.com/indiekraf.com/wp-content/uploads/2021/01/ID-en-20210125-popsignuptwoweeks-perspective_alpha_website_medium.jpg?fit=800%2C450&ssl=1";
+}
+
+.main-container-navbar {
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container-navbar-logo {
+    width: 70vw;
+    background-image: "https://e7.pngegg.com/pngimages/26/116/png-clipart-netflix-logo-netflix-television-show-streaming-media-film-netflix-logo-television-text-thumbnail.png";
+}
+
+.main-container-navbar-language {
+    width: 15vw;
+}
+
+.main-container-navbar-signin .btnheadsmall {
+    width: 15px;
+}
+
+#btnheadsmall {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+
+.main-container-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-top: 7rem;
+    color: whitesmoke;
+}
+
+.main-container-text-one {
+    height:4rem;
+
+}
+
+.main-container-text-two {
+    height:4rem;
+}
+
+.main-container-text-three {
+    height:4rem;
+}
+
+.main-container-text-email  {
+    padding: 2rem;
+    gap: 5px
+}
+
+.headerEmail {
+    padding: 15px;
+    background-color: gray;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.btnheadbig {
+    padding: 15px;
+    background-color: red;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}

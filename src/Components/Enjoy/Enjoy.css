@@ -1,0 +1,33 @@
+.main-enjoy {
+    margin-top: 10px;
+}
+
+.main-enjoy-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: black;
+}
+
+.main-enjoy-container-left {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-enjoy-container-right {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,4 +1,4 @@
-.main-Create {
+.main-create {
     margin-top: 10px;
 }
 
@@ -23,11 +23,28 @@
 
 .main-create-container-right {
     color: whitesmoke;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.create-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 10vh;
+}
+
+.create-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 10vh;
 }

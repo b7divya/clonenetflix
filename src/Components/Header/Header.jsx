@@ -1,24 +1,27 @@
 import react from 'react'
 import "./Header.css"
+import { Link } from 'react-router-dom';
 
     function Header ()  {
 
     return (
         <div className="main">
             <div className="main-container">
-                {/* <img id="heroBannner" src="https://i0.wp.com/indiekraf.com/wp-content/uploads/2021/01/ID-en-20210125-popsignuptwoweeks-perspective_alpha_website_medium.jpg?fit=800%2C450&ssl=1" alt="bannerimage" /> */}
+                {/* <img id="heroBannner" src="H:\cloneNetflix\Images\Banner.png" alt="bannerimage" /> */}
                 <div className="main-container-navbar">
                     <div className="main-container-navbar-logo">
                         <img src="https://www.pngall.com/wp-content/uploads/4/Netflix-Official-Logo.png" alt="Logo netflix" width="200" height="100" />
                     </div>
                     <div className="main-container-navbar-language">
-                    <div class="main-container-navbar-language-content" id="language">
-                        <a href="#english">English</a>
-                        <a href="#hindi">Hindi</a>
-                    </div>
+                    <select name="language" id="language">
+                        <option value="english">English</option>
+                        <option value="hindi">Hindi</option>
+                    </select>
                     </div>
                     <div className="main-container-navbar-signin">
+                        <Link to="/sign">
                         <button id="btnheadsmall">Signin</button>
+                        </Link>
                     </div>
                 </div>
                 <div className="main-container-text">                     
@@ -33,7 +36,7 @@ import "./Header.css"
                     </div>
                     <div className="main-container-text-email">
                         <input type='text' placeholder='Email address' className='headerEmail' />
-                        <button className='btnheadbig'>Get Started</button> 
+                        <button className='btnheadbig'>Get Started {'>'}</button> 
                     </div>
                 </div>
             </div>            

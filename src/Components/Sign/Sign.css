@@ -1,0 +1,120 @@
+.signup {
+    height: 150vh;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/9f46b569-aff7-4975-9b8e-3212e4637f16/453ba2a1-6138-4e3c-9a06-b66f9a2832e4/IN-en-20240415-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.signup-container {
+    width: 40vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 10px;
+}
+
+.head {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.or {
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.forgot {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.signEmail {
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.signPass {
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.signBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.signBtn1 {
+    padding: 10px 83px;
+    border: 1px solid white;
+    background-color: red;
+    margin-top: 20px;
+    border-radius: 5px;
+    color:white;
+    font-size: 0.8rem;
+}
+
+.signBtn2 {
+    padding: 10px 50px;
+    border: 1px solid white;
+    background-color: red;
+    border-radius: 5px;
+    color:white;
+    font-size: 0.8rem;
+}
+
+.container-last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1rem;
+    color:white;
+    flex-wrap: wrap;
+    width: 16vw;
+}
+
+.new .capcha {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.signup-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.6;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 6rem;
+}

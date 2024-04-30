@@ -23,11 +23,28 @@
 
 .main-download-container-right {
     color: whitesmoke;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.download-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 10vh;
+}
+
+.download-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 10vh;
 }
